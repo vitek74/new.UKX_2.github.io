@@ -1,5 +1,5 @@
 html {
-    background: mediumseagreen;
+    background: #FFFAFA;
     font-size: 14px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -10,7 +10,7 @@ html {
   }
   
   body {
-    color: #666;
+    color:black;
     font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -53,6 +53,7 @@ html {
   .main {
     margin: 0 auto;
     max-width: 1040px;
+    min-width: 360px;
     padding: 10px;
   }
   .table {
