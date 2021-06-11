@@ -55,7 +55,13 @@ html {
     max-width: 1040px;
     padding: 10px;
   }
-  
+  .table {
+    width:1040px;
+    border: 1px dashed #aaaaaa;
+    border-collapse: collapse;
+}
+
+
   .column {
     flex: 1;
     flex-direction: column;
@@ -129,6 +135,9 @@ html {
     justify-content: space-between;
     margin-top: 10px;
   }
+
+ 
+
   
   @media screen and (min-width: 800px) {
     .columns,
