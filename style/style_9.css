@@ -56,7 +56,7 @@ html {
     padding: 10px;
   }
   .table {
-    width:1040px;
+    max-width:1040px;
     border: 1px dashed #aaaaaa;
     border-collapse: collapse;
 }
